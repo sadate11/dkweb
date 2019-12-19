@@ -1,0 +1,373 @@
+body {
+    margin: 0 auto;
+    font-family: "Heebo";
+}
+
+header {
+    padding-top: 20px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.branding {
+    text-align: center;
+}
+
+#logo {
+    width: 40px;
+    height: auto;
+}
+
+.social-item {
+    display: inline;
+    list-style-type: none;
+    float: right;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+
+#phone-icon, #hotline-number {
+    display: inline;
+    font-size: 16px;
+}
+
+#hotline-number {
+    margin-left: 10px;
+}
+
+hr {
+    border-width: .5px;
+    color: #EFEFEF;
+}
+
+.menu {
+    padding-top: 14px;
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 14px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.menu a:hover {
+    color: #FFC117;
+}
+
+.link {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Oswald";
+}
+
+.headline {
+    width: 100%;
+    height: 85vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/landing2.jpg);
+    background-size: cover;
+    text-align: center;
+    
+}
+
+.tagline {
+    font-family: "Oswald";
+    font-size: 94px;
+    line-height: 120px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    padding-top: 15%;
+}
+
+#call-to-action {
+    background-color: #FFC117;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    padding: 14px 48px 14px 48px;
+    border-radius: 2px;
+    font-family: "Oswald";
+    font-size: 20px;
+    margin-top: 5vh;
+}
+
+#call-to-action:hover {
+    background-color: rgb(253, 205, 72);
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 100%;
+    height: 400px;
+}
+
+.section .content {
+    padding-left: 10%;
+    padding-right: 10vw;
+    padding-top: 5%;
+}
+
+.content-text {
+    font-size: 44px;
+    padding-right: 20vw;
+    font-family: "Oswald";
+}
+
+.content-bttn {
+    font-family: "Oswald";
+    font-weight: 700;
+    font-size: 18px;
+    float: right;
+    cursor: pointer;
+}
+
+.content-bttn:hover {
+    text-decoration: underline;
+}
+
+.section.one .content {
+    background-color: #3584E0;
+}
+
+.section.one .section-img {
+    background-image: url(images/working-women.png);
+    background-size: cover;
+}
+
+.section.two {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+    height: 400px;
+}
+
+.section.two .content {
+    background-color: #FFC117;
+}
+
+.section.three .content {
+    background-color: #000000;
+}
+
+.section.two .section-img {
+    background-image: url(images/three-women.png);
+    background-size: cover;
+}
+
+.section.three .section-img {
+    background-image: url(images/graffiti-wall.png);
+    background-size: cover;
+}
+
+.section.three .content-text {
+    color: #ffffff;
+}
+
+.section.three .content-bttn {
+    color: #ffffff;
+}
+
+.upper-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    border-top: .5px solid;
+    border-bottom: .5px solid;
+    border-color: #E3E3E3;
+}
+
+footer {
+    font-family: "Oswald";
+    font-weight: 500;
+}
+
+.footer-branding, .contact, .share {
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+.footer-branding img {
+    width: 40px;
+    height: auto;
+    display: inline;
+}
+
+.footer-branding p {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.footer-branding p {
+    display: inline;
+}
+
+.contact, .share {
+    font-size: 36px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.contact {
+    border-left: .5px solid;
+    border-right: .5px solid;
+    border-color: #E3E3E3;
+
+}
+
+.lower-footer {
+    text-align: center;
+    padding-top: 8vh;
+    padding-bottom: 2vh;
+}
+
+.footer-menu {
+    list-style-type: none;
+}
+
+.footer-link {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #c6c6c6;
+}
+
+.footer-link:hover {
+    color: #000000;
+}
+
+#copyright {
+    color: #c6c6c6;
+    margin-top: 5vh;
+}
+
+.gallery-container {
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.gallery-img {
+    width: 100%;
+    height: auto;
+}
+
+.main-container.about {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2vh;
+    padding-bottom: 8vh;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10vh;
+}
+
+.about-title {
+    font-family: "Oswald";
+    font-size: 86px;
+    font-weight: 700;
+    line-height: 86px;
+}
+
+.about-copy {
+    font-size: 18px;
+    line-height: 36px;
+    padding-right: 8vw;
+}
+
+.events-wrapper {
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.event {
+    width: 100%;
+    amrgin: 0 auto;
+    height: 500px;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.main-container.events {
+    background-color: #F8F8F8;
+}
+.event.nyc {
+    background-color: #7643FF;
+}
+.event.miami {
+    background-color: #A07119;
+}
+.event.denver {
+    background-color: #26645D;
+}
+.event.jersey {
+    background-color: #409B75;
+}
+.event.washington{
+    background-color: #D66C52;
+}
+.event.virginia {
+    background-color: #532A83;
+}
+
+.location {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Oswald";
+    margin-left: 20px;
+
+}
+
+.description {
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+    padding-top: 5vh;
+
+}
+
+.date {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Oswald";
+    position: absolute;
+    bottom: 10px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
