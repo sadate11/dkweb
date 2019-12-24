@@ -109,7 +109,7 @@ hr {
     display: grid;
     grid-template-columns: 60% 40%;
     width: 100%;
-    height: 400px;
+    height: auto;
 }
 
 .section .content {
@@ -120,8 +120,9 @@ hr {
 
 .content-text {
     font-size: 44px;
-    padding-right: 20vw;
+    padding-right: 5vw;
     font-family: "Oswald";
+    padding-bottom: 10vh;
 }
 
 .content-bttn {
@@ -149,7 +150,7 @@ hr {
     display: grid;
     grid-template-columns: 40% 60%;
     width: 100%;
-    height: 400px;
+    height: auto;
 }
 
 .section.two .content {
@@ -310,7 +311,7 @@ footer a {
 .event {
     width: 100%;
     amrgin: 0 auto;
-    height: 500px;
+    height: auto;
     position: relative;
     cursor: pointer;
     
@@ -329,10 +330,10 @@ footer a {
     background-color: #26645D;
 }
 .event.jersey {
-    background-color: #409B75;
+    background-color: #D66C52;
 }
 .event.washington{
-    background-color: #D66C52;
+    background-color: #409B75;
 }
 .event.virginia {
     background-color: #532A83;
@@ -352,6 +353,7 @@ footer a {
     font-size: 24px;
     margin-left: 20px;
     padding-top: 5vh;
+    padding-bottom: 50%;
 
 }
 
@@ -366,7 +368,202 @@ footer a {
 }
 
 
+/* Mobile responsive design */
 
+@media (max-width: 568px) {
+    .info {
+    display: grid;
+    grid-template-columns:1fr;
+    width: 100%;
+    margin: 0 auto;
+    }
+
+    .hotline {
+        display: none;
+    }
+    .social {
+        display: none;
+    }
+
+    .tagline {
+        font-size: 36px;
+        line-height: 40px;
+        padding-top: 35vh;
+    }
+
+    .headline {
+        background-position: center;
+    }
+
+    .upper-footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .contact {
+        border-left: 0;
+        border-right: 0;
+        border-top: .5px solid;
+        border-bottom: .5px solid;
+        border-color: #E3E3E3;
+        font-size: 24px;
+    }
+
+    .share {
+        font-size: 24px;
+    }
+
+    .section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .section-img {
+        display: block;
+    }
+
+    .footer-branding p {
+        font-size: 20px;
+    }
+
+    .section.two {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .content-text {
+        font-size: 28px;
+    }
+
+    .events-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+
+    .gallery-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+
+    .main-container.about {
+        width: 90%;
+    }
+
+    .photo-section img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 4vh;
+    }
+
+    .about-title {
+        font-size: 56px;
+        line-height: 56px;
+        padding-bottom: 4vh;
+
+        
+    }
+	
+}
+
+@media (min-width: 570px) and (max-width: 1112px) {
+
+
+    .tagline {
+        font-size: 68px;
+        line-height: 78px;
+        padding-top: 35vh;
+    }
+
+    .headline {
+        background-position: center;
+    }
+
+    .upper-footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .contact {
+        border-left: 0;
+        border-right: 0;
+        border-top: .5px solid;
+        border-bottom: .5px solid;
+        border-color: #E3E3E3;
+        font-size: 24px;
+    }
+
+    .share {
+        font-size: 24px;
+    }
+
+    .section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section-img {
+        display: block;
+    }
+
+    .footer-branding p {
+        font-size: 20px;
+    }
+
+    .section.two {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .content-text {
+        padding-right: 10px;
+        font-size: 28px;
+        padding-bottom: 8vh;
+    }
+
+    .events-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+    }
+
+    .gallery-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+    }
+
+    .main-container.about {
+        width: 90%;
+    }
+
+    .photo-section img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 4vh;
+    }
+
+    .about-title {
+        font-size: 56px;
+        line-height: 56px;
+        padding-bottom: 4vh;
+        
+        
+    }
+}
 
 
 
